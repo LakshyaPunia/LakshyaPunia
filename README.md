@@ -10,16 +10,18 @@
   </picture>
 </p>
 
-I'm an analytics engineer at [TMRW](https://www.startmytomorrow.com/), working across data platforms, infrastructure automation, and secure agentic development. My focus is dbt and Snowflake, automated data pipelines, and strict boundaries between coding agents and sensitive data.
+I'm an **Analytics Engineer at [TMRW](https://www.startmytomorrow.com/)**, building the data models, pipelines, and infrastructure behind reliable analytics. I work across **dbt, Snowflake, SQL, and AWS**, with a focus on platform automation, data quality, governance, and secure agentic development.
 
 ### What I work on
 
-- **Analytics engineering** — SQL, dbt models, Snowflake, and automated data pipelines.
-- **Infrastructure and delivery** — infrastructure as code (IaC), GitHub Actions, and CI/CD automation.
-- **Secure agentic development** — coding-agent harnesses, strict guardrails, and data access boundaries to protect sensitive data and PII.
-- **Snowflake cost analysis** — understanding usage and spend across the data platform.
+- **Dimensional modeling & ELT** — Design dimensional data models and build dbt and SQL transformation pipelines in Snowflake, turning source data into reusable analytical datasets.
+- **Data quality & contracts** — Implement dbt tests and data contracts to validate data quality and enforce schema expectations.
+- **Infrastructure as code & CI/CD** — Automate data-platform setup and delivery with IaC and GitHub Actions for repeatable deployments.
+- **Data governance & PII protection** — Implement Snowflake role-based access control (RBAC), masking policies, and controlled data-access boundaries to protect sensitive information.
+- **Agent harnesses & developer tooling** — Build guarded coding-agent workflows and MCP integrations, keeping sensitive data out of agent context.
+- **Snowflake cost analysis** — Analyze warehouse usage and compute spend to identify opportunities for cost efficiency.
 
-I also built a local **MCP server for Tableau** to automate dashboard creation locally.
+For BI automation, I built a local **Model Context Protocol (MCP) server for Tableau** that automates dashboard creation.
 
 <p align="center">
   <img src="assets/skill-sql.svg" height="30" alt="SQL">
