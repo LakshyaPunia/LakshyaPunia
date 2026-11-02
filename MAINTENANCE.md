@@ -6,6 +6,8 @@ Publish this repository publicly as `LakshyaPunia/LakshyaPunia` to display the R
 
 Edit the introduction, skill bullets and project table in `README.md`. The current selection reflects Lakshya's stated analytics engineering role, public projects, and his supplied LinkedIn profile. Python automation, data pipelines, and Power BI are supported by a recommendation on that profile. Do not infer hands-on warehouse or orchestration experience from certificates alone.
 
+The featured repositories are personal projects. Keep Vivre described as a prototype with simulated readings. Do not imply the model is clinically validated or that these repositories contain TMRW work.
+
 ## Animation
 
 `python scripts/build_intro.py` generates the original light/dark GIF subtitles, PNG stills and SVG tool labels. It requires Pillow. The default font is Segoe UI on Windows; set `PROFILE_BODY_FONT` to another installed TrueType font if needed.

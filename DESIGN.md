@@ -2,6 +2,8 @@
 
 Audience: fellow data practitioners, collaborators, and hiring teams. The profile should make Lakshya's analytics engineering role and relevant skills clear within seconds.
 
+Project selection: prioritize the clinical readmission analysis and Vivre health-monitoring prototype. Keep Sydney Trains Pulse and rainfall prediction behind a disclosure as transferable engineering examples. The public work is independent of TMRW; do not imply access to employer code or claim validated clinical outcomes from a synthetic prototype.
+
 Palette: GitHub canvas #FFFFFF / #0D1117, blue #2563EB / #79B8FF, slate #475569, restrained teal #0F766E.
 Type: native GitHub headings and body; Segoe UI for the narrow animated subtitle.
 Layout: centered name and role, small animated text line, short introduction, three skill bullets, a compact project table, and a contribution game below the projects.

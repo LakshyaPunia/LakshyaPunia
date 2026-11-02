@@ -10,7 +10,7 @@
   </picture>
 </p>
 
-I'm an analytics engineer who builds data pipelines, automates repetitive workflows, and turns datasets into useful reporting. My repositories explore the work behind the dashboard: ingestion, transformations, data preparation, and analysis.
+I'm an analytics engineer at [TMRW](https://www.startmytomorrow.com/), working at the intersection of health data and useful products. My public repositories explore clinical data analysis, health monitoring, and the engineering behind clear insights.
 
 ### What I work with
 
@@ -28,18 +28,21 @@ I'm an analytics engineer who builds data pipelines, automates repetitive workfl
   <img src="assets/skill-git.svg" height="30" alt="Git">
 </p>
 
-### Projects in practice
+### Selected projects
 
-| Project | Analytics skills in action |
+These are independent projects that show how I approach health data and analytics.
+
+| Project | What I built |
 | :--- | :--- |
-| [**Sydney Trains Pulse**](https://github.com/LakshyaPunia/syd-trains-pulse) | Ingesting live transit data, transforming it with Python and Pandas, storing it in SQLite, and surfacing network delays in a dashboard. |
-| [**Diabetes Readmission Analysis**](https://github.com/LakshyaPunia/Diabetes-Readmission-Analysis) | Cleaning and analyzing 101,766 patient encounters; exploring readmission patterns through statistics and visualizations. |
-| [**Australian Rainfall Prediction**](https://github.com/LakshyaPunia/Rainfall-prediction-using-machine-learning) | Preparing weather observations with location-aware imputation and memory-efficient data types, then comparing classification models. |
+| [**Diabetes Readmission Analysis**](https://github.com/LakshyaPunia/Diabetes-Readmission-Analysis) | Cleaned and explored 101,766 clinical encounters across 130 hospitals, then visualized factors associated with readmission and length of stay. |
+| [**Vivre**](https://github.com/LakshyaPunia/vivre) | Built a health monitoring prototype that ingests simulated vital readings, stores them, and generates health scores and alerts. [Frontend](https://github.com/LakshyaPunia/vivre-core). |
 
 <details>
-<summary>More of my work</summary>
+<summary>More data engineering and ML projects</summary>
 
-[InsightEdge](https://github.com/LakshyaPunia/InsightEdge) · [Vivre](https://github.com/LakshyaPunia/vivre) · [Vitamin Deficiency Classifier](https://github.com/LakshyaPunia/vitamin-deficiency-classifier)
+- [Sydney Trains Pulse](https://github.com/LakshyaPunia/syd-trains-pulse) — live data ingestion, SQLite and Pandas transformations, and a transit dashboard.
+- [Australian Rainfall Prediction](https://github.com/LakshyaPunia/Rainfall-prediction-using-machine-learning) — weather data preparation and model comparison.
+- [Vitamin Deficiency Classifier](https://github.com/LakshyaPunia/vitamin-deficiency-classifier) — an academic exploration of clinical features and classification.
 
 </details>
 
