@@ -4,7 +4,7 @@ Publish this repository publicly as `LakshyaPunia/LakshyaPunia` to display the R
 
 ## Content
 
-Edit the introduction, skill bullets and project table in `README.md`. Workplace-specific tools should be added only after Lakshya confirms them. The current selection reflects his stated analytics engineering role and public project evidence.
+Edit the introduction, skill bullets and project table in `README.md`. The current selection reflects Lakshya's stated analytics engineering role, public projects, and his supplied LinkedIn profile. Python automation, data pipelines, and Power BI are supported by a recommendation on that profile. Do not infer hands-on warehouse or orchestration experience from certificates alone.
 
 ## Animation
 

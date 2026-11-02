@@ -32,9 +32,9 @@ for theme, background, ink in [('dark','#0D1117','#79B8FF'),('light','#FFFFFF','
         durations.append(2400)
     frames[0].save(ASSETS/f'intro-{theme}.gif',save_all=True,append_images=frames[1:],duration=durations,loop=0,optimize=True)
 
-for name, color, width in [('SQL','#2F6FEB',69),('Python','#3271A5',95),('Pandas','#6262AA',98),('Jupyter','#AA5118',104),('Streamlit','#AD3F50',114),('Git','#AF4E37',60)]:
+for name, color, width in [('SQL','#2F6FEB',69),('Python','#3271A5',95),('Power BI','#806600',108),('Pandas','#6262AA',98),('Jupyter','#AA5118',104),('Streamlit','#AD3F50',114),('Git','#AF4E37',60)]:
     svg=f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="30" viewBox="0 0 {width} 30" role="img" aria-label="{name}">
 <rect x=".5" y=".5" width="{width-1}" height="29" rx="6" fill="{color}"/>
 <text x="{width/2}" y="20" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" fill="white">{name}</text></svg>'''
-    (ASSETS/f'skill-{name.lower()}.svg').write_text(svg,encoding='utf-8')
-print('Built original light/dark intro animations, stills, and six tool labels')
+    (ASSETS/f'skill-{name.lower().replace(" ", "-")}.svg').write_text(svg,encoding='utf-8')
+print('Built original light/dark intro animations, stills, and tool labels')
