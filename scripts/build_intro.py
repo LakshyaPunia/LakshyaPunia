@@ -7,7 +7,7 @@ ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / 'assets'
 FONT = os.environ.get('PROFILE_BODY_FONT', 'C:/Windows/Fonts/segoeui.ttf')
 font = ImageFont.truetype(FONT, 32)
-lines = ['SQL. Python. Better decisions.', 'From raw data to useful insight.']
+lines = ['Building reliable data pipelines.', 'Coding agents. Sensitive data protected.']
 W, H = 960, 84
 
 for theme, background, ink in [('dark','#0D1117','#79B8FF'),('light','#FFFFFF','#2563EB')]:
@@ -32,7 +32,7 @@ for theme, background, ink in [('dark','#0D1117','#79B8FF'),('light','#FFFFFF','
         durations.append(2400)
     frames[0].save(ASSETS/f'intro-{theme}.gif',save_all=True,append_images=frames[1:],duration=durations,loop=0,optimize=True)
 
-for name, color, width in [('SQL','#2F6FEB',69),('Python','#3271A5',95),('Power BI','#806600',108),('Pandas','#6262AA',98),('Jupyter','#AA5118',104),('Streamlit','#AD3F50',114),('Git','#AF4E37',60)]:
+for name, color, width in [('SQL','#2F6FEB',69),('dbt','#BF544C',66),('Snowflake','#247C9D',107),('GitHub Actions','#365A90',143),('IaC','#7254A0',57),('Tableau','#2D648C',87),('MCP','#536879',65)]:
     svg=f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="30" viewBox="0 0 {width} 30" role="img" aria-label="{name}">
 <rect x=".5" y=".5" width="{width-1}" height="29" rx="6" fill="{color}"/>
 <text x="{width/2}" y="20" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" fill="white">{name}</text></svg>'''

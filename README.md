@@ -1,36 +1,37 @@
 <h1 align="center">Lakshya Punia</h1>
-<p align="center"><strong>Analytics Engineer</strong> · Sydney, Australia</p>
+<p align="center"><strong>Analytics Engineer · dbt · Snowflake · secure data platforms</strong><br>Sydney, Australia</p>
 
 <p align="center">
   <picture>
     <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/intro-dark.png">
     <source media="(prefers-reduced-motion: reduce)" srcset="assets/intro-light.png">
     <source media="(prefers-color-scheme: dark)" srcset="assets/intro-dark.gif">
-    <img src="assets/intro-light.gif" width="640" alt="SQL, Python, and turning raw data into useful insight.">
+    <img src="assets/intro-light.gif" width="640" alt="Building reliable data pipelines. Coding agents stay away from sensitive data.">
   </picture>
 </p>
 
-I'm an analytics engineer at [TMRW](https://www.startmytomorrow.com/), working at the intersection of health data and useful products. My public repositories explore clinical data analysis, health monitoring, and the engineering behind clear insights.
+At [TMRW](https://www.startmytomorrow.com/), I build the data systems behind reliable analytics: dbt models in Snowflake, automated pipelines, infrastructure as code, and GitHub Actions. I also work on Snowflake cost analysis and data security, with particular care around PII.
 
-### What I work with
+### What I build
 
-- **Pipelines & automation** — SQL transformations, data ingestion, and Python scripts that reduce manual work.
-- **Data preparation** — cleaning messy datasets, handling missing values, and optimizing data types.
-- **BI & analysis** — Power BI dashboards, exploratory analysis, and visual reporting with Python.
+- **Analytics engineering** — dbt and Snowflake workflows, automated pipelines, and cost analysis.
+- **Platform foundations** — infrastructure as code and GitHub Actions for repeatable setup and delivery.
+- **Secure agentic development** — coding agents with strict guardrails that keep them away from sensitive data and PII.
+- **BI automation** — a local MCP server that helps build Tableau dashboards locally.
 
 <p align="center">
   <img src="assets/skill-sql.svg" height="30" alt="SQL">
-  <img src="assets/skill-python.svg" height="30" alt="Python">
-  <img src="assets/skill-power-bi.svg" height="30" alt="Power BI">
-  <img src="assets/skill-pandas.svg" height="30" alt="Pandas">
-  <img src="assets/skill-jupyter.svg" height="30" alt="Jupyter">
-  <img src="assets/skill-streamlit.svg" height="30" alt="Streamlit">
-  <img src="assets/skill-git.svg" height="30" alt="Git">
+  <img src="assets/skill-dbt.svg" height="30" alt="dbt">
+  <img src="assets/skill-snowflake.svg" height="30" alt="Snowflake">
+  <img src="assets/skill-github-actions.svg" height="30" alt="GitHub Actions">
+  <img src="assets/skill-iac.svg" height="30" alt="Infrastructure as code">
+  <img src="assets/skill-tableau.svg" height="30" alt="Tableau">
+  <img src="assets/skill-mcp.svg" height="30" alt="Model Context Protocol">
 </p>
 
-### Selected projects
+### Public side projects
 
-These are independent projects that show how I approach health data and analytics.
+These are independent explorations, separate from my TMRW work.
 
 | Project | What I built |
 | :--- | :--- |

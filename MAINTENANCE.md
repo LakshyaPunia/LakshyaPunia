@@ -4,7 +4,7 @@ Publish this repository publicly as `LakshyaPunia/LakshyaPunia` to display the R
 
 ## Content
 
-Edit the introduction, skill bullets and project table in `README.md`. The current selection reflects Lakshya's stated analytics engineering role, public projects, and his supplied LinkedIn profile. Python automation, data pipelines, and Power BI are supported by a recommendation on that profile. Do not infer hands-on warehouse or orchestration experience from certificates alone.
+Edit the introduction, technical focus bullets, and side-project table in `README.md`. The dbt, Snowflake, automation, IaC, GitHub Actions, PII, agentic coding, cost analysis, and local Tableau MCP details come from Lakshya's direct description of his work. Keep employer system details at the level he has shared publicly.
 
 The featured repositories are personal projects. Keep Vivre described as a prototype with simulated readings. Do not imply the model is clinically validated or that these repositories contain TMRW work.
 
