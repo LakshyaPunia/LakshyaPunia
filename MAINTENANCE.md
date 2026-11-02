@@ -1,23 +1,25 @@
-# Maintaining this profile
+# Maintaining the analytics engineering profile
 
-The profile appears at `https://github.com/LakshyaPunia` when this repository is published publicly as `LakshyaPunia/LakshyaPunia`.
+Publish this repository publicly as `LakshyaPunia/LakshyaPunia` to display the README on the profile.
 
-## Automatic updates
+## Content
 
-`.github/workflows/refresh-profile.yml` updates public repository activity daily and supports **Actions → Refresh profile → Run workflow**. It uses GitHub's automatic repository token; no personal token or paid image service is needed. Run the workflow after initial publication to verify the hosted job.
+Edit the introduction, skill bullets and project table in `README.md`. Workplace-specific tools should be added only after Lakshya confirms them. The current selection reflects his stated analytics engineering role and public project evidence.
 
-The count excludes forks and the profile repository. Languages are distinct primary languages reported by GitHub, not proficiency ratings. Recent pushes are repository timestamps, not a claim about individual authored commits. A failed API request leaves the previous panel intact.
+## Animation
 
-GitHub can delay scheduled runs and may disable scheduled workflows after 60 days of inactivity in public repositories. Re-enable the workflow from Actions if necessary.
+`python scripts/build_intro.py` generates the original light/dark GIF subtitles, PNG stills and SVG tool labels. It requires Pillow. The default font is Segoe UI on Windows; set `PROFILE_BODY_FONT` to another installed TrueType font if needed.
 
-## Content and visuals
+The README selects light/dark sources and requests a still for reduced-motion preferences. Rendering support can vary. All essential role, skills and project information is also readable Markdown text. The old photographic assets are removed; the previous version remains in Git history.
 
-- Edit the introduction, project text, and toolkit in `README.md`.
-- Keep the `ACTIVITY:START` and `ACTIVITY:END` comments; the refresh script owns the content between them.
-- `python scripts/update_profile.py` refreshes the panel locally using Python's standard library. `GH_TOKEN` is optional for public unauthenticated requests.
-- `python scripts/build_art.py` rebuilds the banner with Pillow. It defaults to Windows Bahnschrift and Segoe UI; `PROFILE_DISPLAY_FONT` and `PROFILE_BODY_FONT` can point to other installed TrueType fonts.
-- `python scripts/preview.py` generates a local preview using `markdown-it-py`. The preview is an approximation; GitHub's rendering is authoritative.
+## Daily refresh
 
-The banner's animated GIF has a 6-second loop. Its PNG is the reduced-motion source and is also linked explicitly, since renderer and browser support for media conditions can vary. All meaningful project information remains ordinary accessible Markdown text.
+`.github/workflows/refresh-profile.yml` refreshes the compact public-project count daily or manually through Actions. It uses the automatic repository token and standard-library Python, with no paid service or personal token.
 
-The source photograph and attribution are in `assets/`. Avoid replacing the source with an unlicensed image.
+`python scripts/update_profile.py` runs the same update locally. Keep exactly one pair of `ACTIVITY:START` and `ACTIVITY:END` markers. The count excludes private repositories, forks and the profile itself. If the API fails, the README stays unchanged.
+
+GitHub can delay scheduled runs and can disable schedules after 60 days of repository inactivity. The hosted workflow must be verified after publication.
+
+## Preview
+
+`python scripts/preview.py` creates `preview.html` using markdown-it-py. This approximates GitHub styling; the published GitHub rendering is authoritative. Preview files are excluded from Git.

@@ -1,81 +1,50 @@
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero.png">
-  <img src="assets/hero.gif" width="1200" alt="Lakshya Punia, Sydney. Turning data into things people use. Machine learning and full-stack development. Sydney Harbour at night with an animated transit signal.">
-</picture>
+<h1 align="center">Lakshya Punia</h1>
+<p align="center"><strong>Analytics Engineer</strong> · Sydney, Australia</p>
 
 <p align="center">
-  <a href="#selected-work">Selected work</a> &nbsp; / &nbsp;
-  <a href="#the-toolkit">The toolkit</a> &nbsp; / &nbsp;
-  <a href="#on-the-workbench">On the workbench</a> &nbsp; / &nbsp;
-  <a href="https://github.com/LakshyaPunia?tab=repositories">All repositories</a>
+  <picture>
+    <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/intro-dark.png">
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/intro-light.png">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/intro-dark.gif">
+    <img src="assets/intro-light.gif" width="640" alt="SQL, Python, and turning raw data into useful insight.">
+  </picture>
 </p>
 
-I'm **Lakshya**, a builder based in Sydney. My work connects **data, machine learning, and product interfaces**: from understanding a city's train network to exploring how technology can support care.
+I'm an analytics engineer working with data, transformations, and analysis. Here I share projects that turn raw datasets into something people can understand and use.
 
-I like projects where the data has somewhere useful to go.
+### What I work with
 
-## Selected work
+- **SQL & data workflows** — extracting, transforming, and storing data for analysis.
+- **Python & data preparation** — cleaning datasets, handling missing values, and exploring patterns.
+- **Analytics & reporting** — bringing data together in dashboards and clear visual explanations.
 
-### [Sydney Trains Pulse](https://github.com/LakshyaPunia/syd-trains-pulse)
+<p align="center">
+  <img src="assets/skill-sql.svg" height="30" alt="SQL">
+  <img src="assets/skill-python.svg" height="30" alt="Python">
+  <img src="assets/skill-pandas.svg" height="30" alt="Pandas">
+  <img src="assets/skill-jupyter.svg" height="30" alt="Jupyter">
+  <img src="assets/skill-streamlit.svg" height="30" alt="Streamlit">
+  <img src="assets/skill-git.svg" height="30" alt="Git">
+</p>
 
-**Making a moving city easier to understand.**
+### Projects in practice
 
-A Sydney Trains analytics dashboard with network delay heatmaps, skip-stop risk prediction, and a local natural-language query agent. A hybrid SQLite and Pandas engine connects live telemetry to a Streamlit interface.
-
-`Python` &nbsp; `Pandas` &nbsp; `SQLite` &nbsp; `Streamlit`
-
-[Explore the project](https://github.com/LakshyaPunia/syd-trains-pulse)
-
-### [Vivre](https://github.com/LakshyaPunia/vivre-core)
-
-**Exploring more connected care.**
-
-A health-monitoring project being developed around elderly care: patient vitals, health trends, and family-facing interfaces. The repositories bring together a React and TypeScript frontend with Python models and backend work.
-
-`TypeScript` &nbsp; `React` &nbsp; `Python` &nbsp; `Supabase`
-
-[Frontend](https://github.com/LakshyaPunia/vivre-core) &nbsp; / &nbsp; [Models & backend](https://github.com/LakshyaPunia/vivre)
-
-<details>
-<summary><b>More experiments in data & machine learning</b></summary>
-
-<br>
-
-| Project | Exploration |
+| Project | Analytics skills in action |
 | :--- | :--- |
-| [Diabetes Readmission Analysis](https://github.com/LakshyaPunia/Diabetes-Readmission-Analysis) | Analysis of patient readmissions across 130 US hospitals. |
-| [Vitamin Deficiency Classifier](https://github.com/LakshyaPunia/vitamin-deficiency-classifier) | A notebook-based classification project. |
-| [Rainfall Prediction](https://github.com/LakshyaPunia/Rainfall-prediction-using-machine-learning) | Exploring machine learning for rainfall prediction. |
-| [InsightEdge](https://github.com/LakshyaPunia/InsightEdge) | An analytics project exploring churn, forecasting, and anomaly detection. |
-
-</details>
-
-## The toolkit
-
-**Data & models** &nbsp; Python · Pandas · Jupyter · SQL<br>
-**Interfaces** &nbsp; TypeScript · React · Tailwind CSS · Streamlit<br>
-**Behind the scenes** &nbsp; SQLite · Supabase · Git
-
-## On the workbench
-
-[![Public repository activity, refreshed daily. Text summary follows.](assets/pulse.svg)](https://github.com/LakshyaPunia?tab=repositories)
+| [**Sydney Trains Pulse**](https://github.com/LakshyaPunia/syd-trains-pulse) | Ingesting live transit data, transforming it with Python and Pandas, storing it in SQLite, and surfacing network delays in a dashboard. |
+| [**Diabetes Readmission Analysis**](https://github.com/LakshyaPunia/Diabetes-Readmission-Analysis) | Cleaning and analyzing 101,766 patient encounters; exploring readmission patterns through statistics and visualizations. |
 
 <details>
-<summary>Activity as text</summary>
+<summary>More of my work</summary>
 
-<!-- ACTIVITY:START -->
-**8 public projects** · **3 primary languages** · Updated 02 Nov 2026 (UTC).
-
-- [vivre-core](https://github.com/LakshyaPunia/vivre-core) — last pushed 2026-05-11.
-- [vivre](https://github.com/LakshyaPunia/vivre) — last pushed 2026-05-11.
-- [vitamin-deficiency-classifier](https://github.com/LakshyaPunia/vitamin-deficiency-classifier) — last pushed 2026-04-21.
-<!-- ACTIVITY:END -->
+[InsightEdge](https://github.com/LakshyaPunia/InsightEdge) · [Rainfall Prediction](https://github.com/LakshyaPunia/Rainfall-prediction-using-machine-learning) · [Vivre](https://github.com/LakshyaPunia/vivre)
 
 </details>
 
 ---
 
-**Have an idea at the intersection of data and useful software?**<br>
-Explore a repository, open an issue, or follow along as the projects develop.
+<!-- ACTIVITY:START -->
+<p align="center"><sub>8 public projects · Updated 02 Nov 2026 UTC</sub></p>
+<!-- ACTIVITY:END -->
 
-<sub>[View the still banner](assets/hero.png) · [Photography credit](assets/CREDITS.md) · Activity uses public repositories only.</sub>
+<p align="center"><a href="https://github.com/LakshyaPunia?tab=repositories">Explore my repositories</a></p>

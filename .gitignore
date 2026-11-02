@@ -2,3 +2,5 @@ __pycache__/
 preview.html
 preview.png
 mobile-preview.png
+preview-*.png
+mobile-preview-*.png

@@ -1,11 +1,18 @@
-# Profile direction
+# Analytics engineering profile
 
-Sydney after dark: a photographic opening that connects Lakshya's location to his transit and data projects. The audience is developers, collaborators and people exploring his work. The profile should lead them from identity to useful projects in one screen.
+Audience: fellow data practitioners, collaborators, and hiring teams. The profile should make Lakshya's analytics engineering role and relevant skills clear within seconds.
 
-Palette: harbour navy #091D2A, deep blue #12364A, mist #E8F1F5, cyan #89D9E6, warm light #F5B98D.
-Type: Bahnschrift for the image headline, Segoe UI for supporting image text, native GitHub typography for readable project copy.
-Layout: left aligned name and statement beside a large Sydney photograph; a quiet navigation line; two featured projects; a compact automatically refreshed activity panel.
+Palette: GitHub canvas #FFFFFF / #0D1117, blue #2563EB / #79B8FF, slate #475569, restrained teal #0F766E.
+Type: native GitHub headings and body; Segoe UI for the narrow animated subtitle.
+Layout: centered name and role, small animated text line, short introduction, three skill bullets, a compact project table, and one activity line.
 
-The memorable element is the photo banner with a gentle moving transit signal. No badge wall, trophy collection or invented achievements. Project descriptions remain selectable text. Animation has a still version, and the README picture requests that still for reduced motion.
+    Name + role
+    Animated subtitle
+    Brief introduction
+    Skills + tool labels
+    Two relevant projects
+    Small activity footer
 
-Review: replaced a generic space/particle background with Sydney photography tied to the actual profile and Sydney Trains Pulse project. Keep animation on a single route line, leave text stable, and use repository-hosted assets to avoid broken external stats services.
+Reference: GammaKing2000's profile informed the simple hierarchy, centered intro, small animation, and compact project presentation. The wording, color choices, assets, and analytics content are original. No reference assets or source code are reused.
+
+Review: analytics engineering is the primary identity. The photographic banner, navigation bar, oversized stats card, and full-stack emphasis are removed from the displayed README. The dynamic element is a narrow subtitle plus a daily-updated text footer. Keep claims tied to the user's stated role and demonstrated public projects. Workplace-specific tools await confirmation.
