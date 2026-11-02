@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+<title id="title">Lakshya's public workbench</title><desc id="desc">8 original public project repositories. 3 primary repository languages. Refreshed 02 Nov 2026 UTC.</desc>
+<rect width="1200" height="390" rx="18" fill="#091D2A"/>
+<g font-family="Segoe UI,Arial,sans-serif" fill="#E8F1F5">
+<text x="40" y="48" font-size="24">Always building.</text>
+<text x="1160" y="47" text-anchor="end" font-size="16" fill="#A9CEDB">Refreshed 02 Nov 2026 UTC</text>
+<text x="40" y="121" font-size="49">08</text><text x="125" y="104" font-size="19">public projects</text><text x="125" y="131" font-size="15" fill="#A9CEDB">Original repositories, excluding this profile</text>
+<text x="650" y="121" font-size="49">03</text><text x="735" y="104" font-size="19">primary languages</text><text x="735" y="131" font-size="15" fill="#A9CEDB">Jupyter Notebook / Python / TypeScript</text>
+<path d="M40 160H1160" stroke="#315366"/>
+<text x="40" y="198" font-size="17" fill="#89D9E6">Recent repository pushes</text>
+<circle cx="46" cy="236" r="4" fill="#F5B98D"/><text x="66" y="242" font-size="20">vivre-core</text><text x="1160" y="242" text-anchor="end" font-size="17" fill="#A9CEDB">2026-05-11</text>
+<circle cx="46" cy="282" r="4" fill="#F5B98D"/><text x="66" y="288" font-size="20">vivre</text><text x="1160" y="288" text-anchor="end" font-size="17" fill="#A9CEDB">2026-05-11</text>
+<circle cx="46" cy="328" r="4" fill="#F5B98D"/><text x="66" y="334" font-size="20">vitamin-deficiency-classifier</text><text x="1160" y="334" text-anchor="end" font-size="17" fill="#A9CEDB">2026-04-21</text>
+</g></svg>
