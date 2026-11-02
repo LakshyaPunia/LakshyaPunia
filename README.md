@@ -43,11 +43,16 @@ I'm an analytics engineer who builds data pipelines, automates repetitive workfl
 
 </details>
 
----
+### Contribution arcade
 
-<!-- ACTIVITY:START -->
-<p align="center"><sub>8 public projects · Updated 02 Nov 2026 UTC</sub></p>
-<!-- ACTIVITY:END -->
+<p align="center">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/space-shooter-still.png">
+    <img src="assets/space-shooter.gif" width="800" alt="Space shooter animation generated from Lakshya's GitHub contribution calendar.">
+  </picture>
+</p>
+
+---
 
 <p align="center">
   <a href="https://github.com/LakshyaPunia?tab=repositories">Explore my repositories</a> ·

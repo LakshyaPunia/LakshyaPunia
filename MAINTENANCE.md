@@ -14,11 +14,11 @@ The README selects light/dark sources and requests a still for reduced-motion pr
 
 ## Daily refresh
 
-`.github/workflows/refresh-profile.yml` refreshes the compact public-project count daily or manually through Actions. It uses the automatic repository token and standard-library Python, with no paid service or personal token.
-
-`python scripts/update_profile.py` runs the same update locally. Keep exactly one pair of `ACTIVITY:START` and `ACTIVITY:END` markers. The count excludes private repositories, forks and the profile itself. If the API fails, the README stays unchanged.
+`.github/workflows/update-game.yml` regenerates the contribution space shooter daily or manually through Actions. It uses the repository's automatic GitHub token and [gh-space-shooter](https://github.com/czl9707/gh-space-shooter). The `no-amend: true` setting makes new commits instead of rewriting earlier ones.
 
 GitHub can delay scheduled runs and can disable schedules after 60 days of repository inactivity. The hosted workflow must be verified after publication.
+
+The space shooter is a GIF rendered from public contribution data. It is an animation, not a playable game. The initial asset is generated from GitHub's public calendar; scheduled runs use the action's authenticated GitHub API access. The reduced-motion PNG is a still image of the initial game and will not refresh automatically.
 
 ## Preview
 

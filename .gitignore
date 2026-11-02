@@ -4,3 +4,6 @@ preview.png
 mobile-preview.png
 preview-*.png
 mobile-preview-*.png
+preview-game-*.png
+.venv/
+.venv313/

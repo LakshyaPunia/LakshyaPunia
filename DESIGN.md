@@ -4,18 +4,18 @@ Audience: fellow data practitioners, collaborators, and hiring teams. The profil
 
 Palette: GitHub canvas #FFFFFF / #0D1117, blue #2563EB / #79B8FF, slate #475569, restrained teal #0F766E.
 Type: native GitHub headings and body; Segoe UI for the narrow animated subtitle.
-Layout: centered name and role, small animated text line, short introduction, three skill bullets, a compact project table, and one activity line.
+Layout: centered name and role, small animated text line, short introduction, three skill bullets, a compact project table, and a contribution game below the projects.
 
     Name + role
     Animated subtitle
     Brief introduction
     Skills + tool labels
     Two relevant projects
-    Small activity footer
+    Contribution space shooter
 
 Reference: GammaKing2000's profile informed the simple hierarchy, centered intro, small animation, and compact project presentation. The wording, color choices, assets, and analytics content are original. No reference assets or source code are reused.
 
-Review: analytics engineering is the primary identity. The photographic banner, navigation bar, oversized stats card, and full-stack emphasis are removed from the displayed README. The dynamic element is a narrow subtitle plus a daily-updated text footer. Keep claims tied to the user's stated role and demonstrated public projects. LinkedIn is used for technical context, while GitHub remains project-led. Power BI, pipeline work and Python automation are supported by the supplied profile. Certifications, employment timelines and recommendations are not reproduced in the README.
+Review: analytics engineering is the primary identity. The photographic banner, navigation bar, oversized stats card, and full-stack emphasis are removed from the displayed README. The dynamic element is a narrow subtitle plus a daily-updated contribution game. Keep claims tied to the user's stated role and demonstrated public projects. LinkedIn is used for technical context, while GitHub remains project-led. Power BI, pipeline work and Python automation are supported by the supplied profile. Certifications, employment timelines and recommendations are not reproduced in the README.
 
 
 ## Content evidence

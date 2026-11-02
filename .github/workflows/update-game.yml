@@ -1,0 +1,30 @@
+name: Update contribution space shooter
+
+on:
+  schedule:
+    - cron: '17 20 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-contribution-game
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 2
+      - uses: czl9707/gh-space-shooter@v2
+        with:
+          github-token: ${{ github.token }}
+          username: LakshyaPunia
+          output-path: assets/space-shooter.gif
+          strategy: column
+          fps: 25
+          no-amend: true
