@@ -4,13 +4,13 @@ Publish this repository publicly as `LakshyaPunia/LakshyaPunia` to display the R
 
 ## Content
 
-Edit the introduction, technical focus bullets, and side-project table in `README.md`. The dbt, Snowflake, automation, IaC, GitHub Actions, PII, agentic coding, cost analysis, and local Tableau MCP details come from Lakshya's direct description of his work. Keep employer system details at the level he has shared publicly.
+Edit the introduction, technical focus bullets, and collapsed side-project list in `README.md`. The dbt, Snowflake, automation, IaC, GitHub Actions, PII, agentic coding, cost analysis, and local Tableau MCP details come from Lakshya's direct description of his work. AWS and agent harnesses were explicitly requested for the technical keywords; no specific AWS services or IaC vendor have been claimed. Keep employer system details at the level he has shared publicly.
 
 The featured repositories are personal projects. Keep Vivre described as a prototype with simulated readings. Do not imply the model is clinically validated or that these repositories contain TMRW work.
 
 ## Animation
 
-`python scripts/build_intro.py` generates the original light/dark GIF subtitles, PNG stills and SVG tool labels. It requires Pillow. The default font is Segoe UI on Windows; set `PROFILE_BODY_FONT` to another installed TrueType font if needed.
+`python scripts/build_intro.py` generates the original light/dark GIF subtitles, PNG stills and SVG tool labels. Edit its `lines` list to change the six rotating technical phrases. The loop covers dbt/Snowflake, AWS/IaC/CI/CD, agent harnesses and PII, automated pipelines, cost analysis, and local Tableau MCP automation. It requires Pillow. The default font is Segoe UI on Windows; set `PROFILE_BODY_FONT` to another installed TrueType font if needed.
 
 The README selects light/dark sources and requests a still for reduced-motion preferences. Rendering support can vary. All essential role, skills and project information is also readable Markdown text. The old photographic assets are removed; the previous version remains in Git history.
 
@@ -24,4 +24,4 @@ The space shooter is a GIF rendered from public contribution data. It is an anim
 
 ## Preview
 
-`python scripts/preview.py` creates `preview.html` using markdown-it-py. This approximates GitHub styling; the published GitHub rendering is authoritative. Preview files are excluded from Git.
+`python scripts/preview.py` creates `preview.html` using markdown-it-py. It adds content hashes to local image URLs so reloading fetches changed assets. Run it after rebuilding animations, then reload the browser tab. This approximates GitHub styling; the published GitHub rendering is authoritative. Preview files are excluded from Git.

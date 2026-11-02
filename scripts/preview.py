@@ -1,10 +1,20 @@
 """Create a local approximation of GitHub's README rendering for visual review."""
 from pathlib import Path
+from hashlib import sha256
+import re
 from markdown_it import MarkdownIt
 
 root = Path(__file__).resolve().parents[1]
 md = MarkdownIt('commonmark', {'html': True}).enable('table')
 body = md.render((root / 'README.md').read_text(encoding='utf-8'))
+
+def version_asset(match):
+    path = match.group(1)
+    fingerprint = sha256((root / path).read_bytes()).hexdigest()[:12]
+    return f'"{path}?v={fingerprint}"'
+
+# Refresh changed images on reload without altering published README paths.
+body = re.sub(r'"(assets/[^"?]+)"', version_asset, body)
 for title in ['Selected work', 'The toolkit', 'On the workbench']:
     body = body.replace(f'<h2>{title}</h2>', f'<h2 id="{title.lower().replace(" ", "-")}">{title}</h2>')
 page = '''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Lakshya Punia — Profile preview</title>
